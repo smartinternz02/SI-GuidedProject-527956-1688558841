@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <title>Video</title>
+        <link rel="stylesheet" href="../static/video.css">
+        </head>
+    <body>
+        <div class="navbar">
+            <b>YOLO-BASED WEAPON DETECTION</b>
+            <a href="/login">Logout</a>
+            <div class="dropdown">
+              <a href="#"class="dropbtn active">Product
+                <i class="arrow down"></i></a>
+              <div class="dropdown-content">
+                <a href="/image">Image as Input</a>
+                <a href="/video"class="active">Video as Input</a>
+                <a href="/live">Live(WebCam)</a>
+              </div>
+            </div>
+            <a href="/home">Home</a>
+
+        </div>
+        <form method="POST" enctype="multipart/form-data">
+           <input type="file" id="myFile1" name="file" ><br>
+            <label for="myFile1">Choose video</label>
+            <input type="submit" value="detect">
+            </form>
+        </body>
+        </html>

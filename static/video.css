@@ -1,0 +1,129 @@
+.navbar {
+    overflow:hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float:right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown  {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn a {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px,20px,20px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover,.dropbtn a:hover {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    top:11.75%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #7d7676;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }  
+  .navbar b{
+    float:left;
+    color:white;
+    padding-left:20px;
+    padding-top:20px;
+    font-size:20px;
+  }
+   .active {
+    background-color:red;
+    
+  }
+  
+  
+body {
+    background-image: url('gun1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .file1{
+    display:block;
+    margin:0 auto;
+    padding:20px;
+    width:100px;
+  }
+  input[type=file] {
+    display:none;
+  }
+  label{
+    position:absolute;
+    color:white;
+    background-color:lightseagreen;
+    height:25px;
+    width:100px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    left:45%;
+    top:20%;
+    margin:auto;
+  }
+  input[type=submit]{
+    position:absolute;
+    border:none;
+    left:46%;
+    top:30%;
+    padding:10px;
+    background-color:red;
+    width:100px;
+  }
